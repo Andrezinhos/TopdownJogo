@@ -77,6 +77,7 @@ public class Personagem : MonoBehaviour
         {
             estaDialogo = true;
             Utils.OlharParaObjeto(transform, GameObject.Find("NPC").gameObject.transform.position);
+            Debug.Log("Pare Gustavo");
         }
         if (Input.GetKey(KeyCode.G) && estaDialogo == true)
         {
